@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto:ital@0;1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    position: relative;
+}
+.left ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+li{
+    padding-top: 5px;
+}
+.right{
+    display: flex;
+    gap: 20px;
+}
+#donate{
+    font-family: 'DM Sans', sans-serif;
+    height: 44px;
+    background: #FF9C08;
+    padding: 0px 20px;
+border-radius: 10px;
+font-style: normal;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #090909;
+border: none;
+}
+#zero{
+    position: absolute;
+    top: 28px;
+    right: 15%;
+    background: #FF9C08
+}
+#zero p{
+    color: white;
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+padding: 3px 8px;
+}
+.start{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+}
+.absolut{
+    padding-top: 20px;
+    height: 100%;
+    position: absolute;
+    top: 12%;
+    right: 0%;
+}
+.left2{
+    width: 47%;
+    padding-top: 15%;
+}
+#about{
+    
+    font-family: 'DM Sans', sans-serif;
+    background: #FFFFFF;
+border: 1px solid #F0ECE8;
+box-shadow: 0px 4px 10px rgba(43, 43, 43, 0.04);
+border-radius: 10px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+height: 44px;
+padding: 0px 20px;
+color: #090909;
+margin-left: 15px;
+margin-top: 5px;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+color: #090909;
+}
+.lorem{
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+color: #6E6E6E;
+padding-top: 16px;
+padding-bottom: 43px;
+}
+.gray{
+    padding-top: 20%;
+    background-color: #FEF9F2;
+}
+.note{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+hr{
+    width: 90%;
+    margin: auto;
+}
+.note h2{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #090909;
+}
+.note span{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 80px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #FF9C08;
+}
+.colum{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 15%;
+    height: 190vh;
+}
+.ptichka{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #090909;
+padding-left: 15px;
+}
+.fot{
+    padding-top: 5px;
+}
+.colum1{
+width: 48%;
+}
+.colum2{
+    width: 48%;
+}
+.rightbtn{
+    text-align: end;
+    padding-bottom: 20px;
+    margin-right: -30px;
+}
+.rov{
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+}
+.rov p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 44px;
+/* identical to box height, or 116% */
+
+color: #090909;
+}
+.pad{
+    padding-left: 30px;
+}
+.flex{
+    display: flex;
+}
+.three{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 120px;
+}
+.orange{
+    background-color: #FFD4A4;
+    height: 100vh;
+    text-align: center;
+    padding-top: 15%;
+    position: relative;
+}
+.four{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 30%;
+    padding-bottom: 10%;
+    position: relative;
+}
+.video img{
+    width: 99%;
+}
+.video{
+    position: absolute;
+    top: -50%;
+    left: 1%;
+}
+.titl{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+color: #090909;
+padding-bottom: 20px;
+
+}
+#btn-black{
+    background: #090909;
+border-radius: 10px;
+border: none;
+padding: 0px 20px;
+height: 44px;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.text-video{
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+/* identical to box height, or 110% */
+text-align: center;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+
+color: #090909;
+padding-bottom: 16px;
+}
+.txt{
+    width: 45%;
+}
+.txt2{
+    width: 45%;
+    display: block;
+    padding-left: 80px;
+}
+.five{
+    padding-top: 10%;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    height: 200vh;
+}
+.help{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background: #FFFFFF;
+border: 1px solid #F0ECE8;
+box-shadow: 0px 2px 12px rgba(43, 43, 43, 0.06);
+border-radius: 12px;
+height: 450px;
+width: 400px;
+text-align: center;
+margin: 0 10px;
+}
+.card img{
+    padding-top: 20%;
+}
+.cards{
+}
+.flex2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.restangle{
+    background: #FF9C08;
+    border-radius: 40px;
+    height: 463px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: -20%;
+    left: 5%;
+    flex-direction: row;
+    align-items: center;
+}
+.restangle p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 58px;
+/* or 138% */
+
+color: #090909;
+}
+.textright{
+    padding-top: 20px;
+    padding: 45px;
+}
+.textright img{
+    padding-top: 15px;
+}
+.textright button{
+    padding-top: 30px;
+}
+.six{
+    padding-top: 400px;
+    background: #FEF9F2;
+    position: relative;
+    height: 140vh;
+}
+.flex4{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.info{
+    padding: 50px 30px;
+    width: 25%;
+    background: #FFFFFF;
+border: 1px solid #F0ECE8;
+box-shadow: 0px 2px 12px rgba(43, 43, 43, 0.06);
+border-radius: 12px;
+position: absolute;
+top: 57%;
+left: 22%;
+}
+#amara{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+color: #090909;
+padding: 15px 0;
+}
+.info p{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #6E6E6E;
+}
+.seven{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20%;
+    position: relative;
+    padding-bottom: 55px;
+}
+.flex3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.flex3 img{
+    width: 570px;
+
+}
+.img-rig{
+    margin-left: 1%;
+}
+.last{
+    width: 100%;
+    background-color: #FEF9F2;
+    padding-top: 15%;
+}
+.last1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.lastcard{
+    background: #FF9C08;
+border-radius: 14px;
+width: 25%;
+padding: 30px;
+margin-left: 30px;
+}
+.lastcard p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+/* or 142% */
+
+color: #090909;
+}
+#about-us{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+/* identical to box height, or 110% */
+letter-spacing: 1.2px;
+text-transform: uppercase;
+
+color: #FF9C08;
+}
+#font-roboto{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 58px;
+color: #090909;
+}
+#font{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 30px;
+color: #6E6E6E;
+}
+.card2{
+    text-align: left;
+    padding: 25px;
+    background: #FFFFFF;
+border: 1px solid #F0ECE8;
+box-shadow: 0px 2px 12px rgba(43, 43, 43, 0.08);
+border-radius: 12px;
+position: absolute;
+top: 60%;
+}
+.card2 button{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+padding: 5px 20px;
+color: #090909;
+}
+.card2 span{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height, or 118% */
+
+color: #6E6E6E;
+}
+.card2-1{
+    text-align: left;
+    padding: 25px;
+    background: #FFFFFF;
+border: 1px solid #F0ECE8;
+box-shadow: 0px 2px 12px rgba(43, 43, 43, 0.08);
+border-radius: 12px;
+position: absolute;
+top: 60%;
+left: 50.5%;
+}
+.card2-1 button{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+padding: 5px 20px;
+color: #090909;
+}
+.card2-1 span{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height, or 118% */
+
+color: #6E6E6E;
+}
+.text3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+/* or 142% */
+
+color: #090909;
+}
+.text4{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* or 111% */
+
+color: #090909;
+}
+.space{
+    padding-bottom: 20%;
+}
+#btn{
+    background: #090909;
+border-radius: 10px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+text-align: center;
+
+color: #FFFFFF;
+height: 71px;
+width: 100%;
+border: none;
+}
+#about-btn{
+    border-radius: 10px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+/* identical to box height, or 111% */
+text-align: center;
+background-color: white;
+height: 71px;
+width: 100%;
+border: none;
+}
+.bold{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+/* identical to box height, or 110% */
+
+color: #090909;
+}
+.grey{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+color: #3F3F3F;
+}
+.all{
+    width: 87%;
+    margin: auto;
+    padding-top: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.all2{
+    display: flex;
+}
